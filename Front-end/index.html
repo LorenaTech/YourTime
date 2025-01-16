@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,38 @@
     <!-- google Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 
 
-    <title>Página Web baseada no Trello</title>
+    <title>YourTime - GTD</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="header">
-        <h1>Main Board</h1>
-        <button class="button btnHeader btn1" type="button">Private</button>
-        <button class="button btnHeader btn2" type="button">Personal</button>
-        <button class="button btnHeader btn3" type="button">Invite</button>
+        <div class="menuTitle">
+            <h1>Main Board</h1>
+            <button class="button btnTitle btnT1" type="button">Private</button>
+            <button class="button btnTitle btnT2" type="button">Personal</button>
+            <button class="button btnTitle btnT3" type="button">Invite</button>
+        </div>
+
+        <div class="searchBar">
+            <button class="btnSarch" type="button"><img src="assets/icons/Lupa.png" alt=""></button>
+            <input class="searchBarTab" type="text" placeholder="Search">
+            
+        </div>
+
+        <div class="btnHeader">
+            <button class="button btnUser1" type="button"><img src="assets/icons/plus.png" alt=""></button>
+
+            <button class="button btnUser2" type="button"><img src="assets/icons/Config.png" alt=""></button>
+
+            <div class="userAccount"><a href=""><img id="userImg" src="assets/img/User.webp" alt=""></a></div>
+        </div>
     </div>
     <div class="menuSide">
         <button class="button" type="button"><img class="iconMenu" src="assets/icons/Home.png" alt=""></button>
@@ -27,7 +47,8 @@
     </div>
 
     <content class="content">
-        <div class="board">
+
+        <!-- <div class="board">
             <div class="column">
                 <h2>To Do</h2>
                 <div class="task">Tarefa 1</div>
@@ -41,7 +62,8 @@
                 <h2>Done</h2>
                 <div class="task">Tarefa 4</div>
             </div>
-        </div>
+        </div> -->
     </content>
 </body>
+
 </html>
